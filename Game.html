@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Game </title>
+<meta name="keywords" content="">
+<meta name="discription" content="">
+<meta name="title" content="">
+<meta name="author" content="Mr. Gaurav Rangne">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="gameStyle.css">
+<script src="gameScript.js"></script>
+</head>
+
+<body onLoad="lod()">
+	<div id="preloder"></div>
+
+	<nav class="navbar background">
+		<ul class="leftNav">
+			<div class="logo"><a href="SpaceWorld.html">
+				<img src="Images/Logo.png" alt="logo"></a>
+			</div>
+			<li><a href="SpaceWorld.html"> Home </a></li>
+			<li><a href="#Planets"> Planets </a></li>
+			<li><a href="#about"> About </a></li>
+		</ul>
+		<div class="rightNav">
+			<input type="text" name="Search" id="search">
+			<button class="btn">Search</button>
+		</div>
+	</nav><br>
+
+	<div class="gameContainer">
+		<div class="gameOver"> Game Over</div>
+		<div class="astronaut"></div>
+		<div id="scoreCount">Your Score: 0</div>
+		<div class="alien alienAni"></div>
+	</div>
+
+	<footer class="background">
+		<p class="text-footer">
+			copyright & 2027 www.geditor.com - All rights reserved
+		</p>
+	</footer>
+	
+	<script>
+		var loader=document.getElementById('preloder');
+		function lod(){
+			loader.style.display='none';
+		}
+	</script>
+</body>
+<html>
