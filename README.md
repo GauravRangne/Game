@@ -1,2 +1,2 @@
-# Game
-This is a running astronaut Game, here we are saving Astronaut from Alien by jumping on alien. 
+# Space World Game
+This is a game where an astronaut is saved from an alien by jumping on the alien.
