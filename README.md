@@ -21,5 +21,5 @@ Space World Game is an interactive web-based game developed using HTML, CSS, and
 ## How to Play
 
 1. Clone the repository to your local machine.
-2. Open the `index.html` file in your preferred web browser.
+2. Open the `Game.html` file in your preferred web browser.
 3. Start your cosmic adventure!
